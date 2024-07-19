@@ -35,7 +35,6 @@ variable "web_ingress" {
 ```
 
 ### Dynamic Ingress Rules
-
 The dynamic block `ingress` generates ingress rules based on the `web_ingress` configuration.
 
 ```hcl
