@@ -8,7 +8,6 @@ This Terraform script defines dynamic ingress rules for managing network access 
 ### Variables
 
 In this script, you can adjust the `web_ingress` variable to define ingress rules for different ports and protocols.
-
 ```hcl
 variable "web_ingress" {
   type = map(object({
