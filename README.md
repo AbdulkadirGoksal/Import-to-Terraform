@@ -51,10 +51,7 @@ dynamic "ingress" {
 ```
 
 ## Customization
-
 Modify the `web_ingress` variable in `variables.tf` to add or adjust ingress rules for different ports and protocols as needed.
-
-
 
 # An Example without Dynamic Block:
 
@@ -101,7 +98,6 @@ resource "aws_security_group" "main" {
 }
 ```
 # Convert Security Group to use dynamic block
-
 ```
 locals {
   ingress_rules = [{
@@ -134,7 +130,6 @@ resource "aws_security_group" "main" {
 ```
 
 ### Summary
-
 In this README, we've covered how to configure Terraform for managing dynamic ingress rules and highlighted key backend configurations for state management.
 
 #### Backend Configurations:
