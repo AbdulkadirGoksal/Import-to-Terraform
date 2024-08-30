@@ -13,6 +13,7 @@ resource "aws_spot_instance_request" "cheap_worker" {
 
 ################################
 
+# II- Second Example
 
 resource "aws_security_group" "ingress-ssh-test" {
   name   = "allow-ssh-sg"
